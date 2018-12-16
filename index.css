@@ -1,0 +1,25 @@
+h1{
+	text-align: center;
+	color: darkgreen;
+	margin-top: 35px;
+	}
+
+#quiz{
+	margin-left: 350px;
+	background: #d2def2;
+	padding:10px 20px 10px 20px;
+	widows: 400px;
+	border-radius: 20px;
+	float: left;
+}
+
+#after_submit{
+	visibility:hidden;
+}
+
+#button{
+background: green;
+border-radius: 5px;
+font-size: 16px;
+margin-left: 15px;
+}

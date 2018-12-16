@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+	
+	   <h1>Chemistry Quiz</h1>
+	 
+	   <form id="quiz" name="quiz">
+
+	   <ol type="1">
+
+	   <li><p>The element in organic compounds are found in ------- conrner of the peroiodic table.</p>
+	  <input type="radio" id="mc" name="question1" value="display">display<br>
+	   <input type="radio" id="mc" name="question1" value="concern">concern<br></li>
+	   
+	   <li><p>The color of nitrous oxide is  -------- .</p>
+	   <input type="radio" id="mc" name="question2" value="blue">blue<br>
+	   <input type="radio" id="mc" name="question2" value="red">red<br></li>
+	   
+	   <li><p>Bromine explodes whend mixed with yellow ------- .</p>
+	   <input type="radio" id="mc" name="question3" value="bind">bind<br>
+	   <input type="radio" id="mc" name="question3" value="mixed">mixed
+	   <br><br></li>
+
+	</ol>
+	   
+	   <input type="button" id="button" value="I'm finished" onclick="check()">
+	   
+	   </form>
+<div id="after_submit">
+<p id="message"></p>
+<p id="number_correct"></p>
+</div>
+
+        <script type="text/javascript" src="index.js"></script>
+		
+    </body>
+</html>
